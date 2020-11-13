@@ -3,7 +3,6 @@
 //      simple web interface for discord using websockets and discord.js       //
 // = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = //
 
-
 'use strict';
 
 const http              = require('http');
