@@ -3,13 +3,11 @@
 //      simple web interface for discord using websockets and discord.js       //
 // = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = //
 
-
 'use strict';
 
 const http              = require('http');
 const url               = require('url');
 const path              = require('path');
-
 
 const dc                = require('discord.js');
 
@@ -64,8 +62,6 @@ const entry_point = (port, mainFile, webRootDir) => {
 
     // init properties and log in the bot
     botClient.init();
-
-
 
     /**
      * Websocket main listener 
